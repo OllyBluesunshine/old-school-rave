@@ -1,0 +1,112 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Old School Rave Magazine</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #ff00cc;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #ff00cc;
+      text-shadow: 0 0 5px #ff00cc, 0 0 10px #ff00cc;
+    }
+
+    .tagline {
+      font-size: 1.2em;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .content h2 {
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+
+    .subscribe-box {
+      background-color: #222;
+      border: 2px solid #00ffcc;
+      border-radius: 10px;
+      padding: 30px;
+      margin-top: 30px;
+      box-shadow: 0 0 20px #00ffcc33;
+    }
+
+    .price {
+      font-size: 2em;
+      color: #00ffcc;
+      margin: 10px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      margin-top: 20px;
+      background-color: #ff00cc;
+      color: white;
+      font-size: 1.1em;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e600b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #777;
+      margin-top: 50px;
+      border-top: 1px solid #333;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Old School Rave</h1>
+    <div class="tagline">The monthly magazine for true rave heads</div>
+  </header>
+
+  <div class="content">
+    <h2>Get the Pulse of Rave Culture Every Month</h2>
+    <p>From underground events to legendary DJs, Old School Rave delivers in-depth features, exclusive interviews, scene fashion, and curated playlists directly to your inbox or doorstep.</p>
+
+    <div class="subscribe-box">
+      <h3>Subscribe Now</h3>
+      <div class="price">$10 / Year</div>
+      <p>12 digital issues delivered monthly</p>
+      <a href="#" class="btn">Subscribe Today</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Old School Rave Magazine. Stay loud, stay proud.
+  </footer>
+</body>
+</html>
